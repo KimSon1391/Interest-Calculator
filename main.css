@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 5rem 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.calculate {
+    width: 100%;
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+.calculate h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.calculate p {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: rgb(11, 255, 255);
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.col-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+label {
+    font-size: 1.7rem;
+    display: block;
+}
+
+form {
+    margin-top: 3rem;
+}
+
+.form-control {
+    margin-top: 1rem;
+    width: 80%;
+    padding: 1rem;
+    border: 1px solid rgba(57, 57, 57, 0.285);
+}
+.form-control:focus {
+    outline: 1px solid rgba(0, 0, 0, 0.442);
+}
+
+#loan {
+    background: #e8f0fe;
+}
+
+#total,
+#interest {
+    outline: 0;
+    background: #e9ecef;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 1.5rem 5rem;
+    letter-spacing: 2px;
+    font-size: 1.7rem;
+    margin-top: 3.5rem;
+    background: #0d6efd;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover {
+    background: #034fc2;
+}
+
+.table {
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    border: 1px solid rgba(57, 57, 57, 0.285);
+}
+
+th,
+tr,
+td {
+    border: 1px solid rgba(57, 57, 57, 0.285);
+    padding: 1rem 0;
+}
